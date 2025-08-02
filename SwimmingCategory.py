@@ -3,9 +3,9 @@
 age=int(input('Enter your age:\n'))
 
 if age<=9:
-	print('Your Category is: Age group 9-10 years')
+	print('Your Category is: Child')
 elif age <= 14:
-	print('Your Category is: Age group 11-14 years')
+	print('Your Category is: Youth')
 elif age <= 19:
 	print('Your Category is: Junior')
 elif age <= 20:
